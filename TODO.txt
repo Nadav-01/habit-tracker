@@ -1,0 +1,6 @@
+Stuff:
+1. configure git (branches, ci-cd, etc.)
+2. design doc (including functionality expectations and features)
+3. basic folder structure (front, back, administrative, etc.)
+4. ...
+5. profit (dead meme)
