@@ -1,0 +1,5 @@
+administrative/~$ango stuff.docx
+backend/habit_tracker/db.sqlite3
+backend/habit_tracker/habit_tracker/__pycache__
+backend/habit_tracker/habit_tracker_app/__pycache__
+administrative/~*.tmp

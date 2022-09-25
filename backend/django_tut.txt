@@ -1,0 +1,28 @@
+VENV NAME:    habit-tracker
+PROJECT NAME: habit_tracker
+APP NAME:     habit_tracker_app
+
+
+pip install virtualenvwrapper-win         // Install venv wrapper
+mkvirtualenv habit-tracker                // Create venv
+
+pip install django                        // Install django in venv
+cd backend                                
+django-admin startproject habit_tracker   // Start the project (Creates basic files)
+deactivate                                // Exits venv
+
+workon habit-tracker                      // Re-enter venv
+
+/*
+Django project can contain multiple Django apps.
+For example, Instagram is the project, and the apps are messaging, story, marketplace, etc...
+*/
+
+
+python ./habit_tracker\manage.py startapp habit_tracker_app
+nul > .\habit_tracker\habit_tracker_app\urls.py
+
+// Edit files:    .\habit_tracker\habit_tracker_app\urls.py,   .\habit_tracker\habit_tracker_app\views.py
+// Also edit:     .\habit_tracker\habit_tracker\urls.py
+python .\habit_tracker\manage.py runserver
+// Goto http://127.0.0.1:8000/
